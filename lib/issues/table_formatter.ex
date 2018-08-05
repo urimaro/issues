@@ -42,7 +42,7 @@ defmodule Issues.TableFormatter do
   @doc """
   Return a binary (string) version o our parameter.
 
-  ## Example
+  ## Examples
     iex> Issues.TableFormatter.printable("a")
     "a"
     iex> Issues.TableFormatter.printable(99)
